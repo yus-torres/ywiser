@@ -1,0 +1,176 @@
+/* 320  */
+@media (min-width: 320px) {	
+	.for-mobile { display: block; }
+	.for-desktop { display: none; }
+	
+	h1 { font-size: 32px; line-height: 38px; margin-bottom: 20px; }
+	h2 { font-size: 24px; line-height: 38px; margin-bottom: 20px; }
+	h3 { font-size: 24px; line-height: 30px; margin-bottom: 10px; }
+	h4 { font-size: 16px; line-height: 30px; margin-bottom: 10px; }
+	h5 { font-size: 16px; line-height: 22px; }
+	p  { font-size: 14px; line-height: 20px; margin-bottom: 10px; }
+	li { font-size: 14px; line-height: 20px; }
+	
+	h1.heading { text-indent: 30px; }
+	h2.heading { text-indent: 20px; }
+	h3.heading { text-indent: 20px; }
+	h1.heading:before { left: -30px; }
+	h2.heading:before { left: -20px; }
+	h3.heading:before { left: -20px; }
+	
+	.form-md { padding: 7px 20px; height: 44px; font-size: 100%; }
+	.form-lg { padding: 7px 20px; height: 44px; font-size: 100%; }
+	
+	.btn.btn-md { padding: 7px 20px; font-size: 100%; }
+	.btn.btn-lg { padding: 7px 20px; font-size: 100%; }
+	
+	header { background: rgba(0, 0, 0, 1); }
+	
+	.fold-main .slider-caption { padding-bottom: 70px; }
+	.fold-main .slider-image { display: none; }
+	.fold-main .carousel-item { min-height: 500px; }
+	.fold-main .carousel-control { display: none; }
+	.fold-main .carousel-caption { margin: 0; }
+	
+	.fold-services i { font-size: 40px; }
+	
+	.fold-team .deck-team .team-card { margin-bottom: 30px; }
+	
+	footer { padding-top: 30px; }
+	footer .footer-logo { position: relative; }
+	footer .footer-logo img { max-width: 160px; }
+	
+	.banner { padding-top: 60px; }
+	.banner .row { min-height: 200px; }
+	
+	.content { padding: 20px 0; }
+	
+	.layout-1 { padding: 0; }
+	.layout-1 .billboard { position: static; height: 400px; width: 100%; background-position: center; }
+	.layout-1 .col-text div { padding-top: 30px; padding-bottom: 30px; padding-left: 0; }
+	
+	.layout-2 { padding: 0; }
+	.layout-2 .billboard { position: static; height: 400px; width: 100%; background-position: center; }
+	.layout-2 .col-text { text-align: left; }
+	.layout-2 .col-text div { padding-top: 30px; padding-bottom: 30px; padding-right: 0; text-align: left; }
+	
+	.deck-blog { text-align: center; }
+}
+
+/* 480  */
+@media (min-width: 480px) {
+	.fold-main .carousel-caption { margin: 0 50px 0 0; }
+}
+
+/* 560  */
+@media (min-width: 560px) {
+	.fold-main .carousel-caption { margin: 0 100px 0 0; }
+	
+	.fold-services i { font-size: 60px; }
+	
+	.fold-team .deck-team .team-card { flex: 0 0 50%; max-width: 50%; }
+}
+
+/* 768 */
+@media (min-width: 768px) {	
+	.for-mobile { display: none; }
+	.for-desktop { display: block; }
+	
+	h1 { font-size: 56px; line-height: 70px; margin-bottom: 40px; }
+	h2 { font-size: 48px; line-height: 56px; margin-bottom: 30px; }
+	h3 { font-size: 32px; line-height: 40px; margin-bottom: 20px; }
+	h4 { font-size: 24px; line-height: 32px; margin-bottom: 20px; }
+	h5 { font-size: 20px; line-height: 32px; }
+	p  { font-size: 16px; line-height: 24px; margin-bottom: 20px; }
+	li { font-size: 16px; line-height: 24px; }
+	
+	h1.heading { text-indent: 50px; }
+	h2.heading { text-indent: 40px; }
+	h3.heading { text-indent: 30px; }
+	h4.heading { text-indent: 20px; }
+	h1.heading:before { left: -50px; }
+	h2.heading:before { left: -40px; }
+	h3.heading:before { left: -30px; }
+	h4.heading:before { left: -20px; }
+	
+	.btn.btn-md { padding: 14px 30px; font-size: 120%; }
+	.btn.btn-lg { padding: 20px 40px; font-size: 140%; }
+	
+	.form-md { padding: 14px 30px; height: 62px; font-size: 120%; }
+	.form-lg { padding: 20px 40px; height: 82px; font-size: 140%; }
+	
+	header { background: rgba(0, 0, 0, 0); }
+	header .for-mobile { display: block; }
+	header .for-desktop { display: none; }
+	
+	.fold-main .slider-caption { flex: 0 0 100%; max-width: 100%; }
+	
+	.fold-team .deck-team .team-card { flex: 0 0 25%; max-width: 25%; margin-bottom: 0; }
+	.fold-team .deck-team .team-card h4 { font-size: 16px; line-height: 30px; margin-bottom: 10px; }
+	.fold-team .deck-team .team-card h5 { font-size: 16px; line-height: 22px; }
+	
+	footer { padding-top: 70px; }
+	footer .footer-logo { position: absolute; }
+	footer .footer-logo img { max-width: 100%; }
+	
+	.banner { padding-top: 100px; }
+	.banner .row { min-height: 300px; }
+	
+	.content { padding: 70px 0; }
+	
+	.layout-1,
+	.layout-2 { padding: 0; }
+	.layout-1 .col-text,
+	.layout-2 .col-text { flex: 0 0 100%; max-width: 100%; }
+	
+	.deck-blog { text-align: left; }
+}
+
+/* 960 */
+@media (min-width: 960px) {
+	.fold-main .slider-caption { flex: 0 0 58.333333%; max-width: 58.333333%; padding-bottom: 0; }
+	.fold-main .slider-image { display: block; }
+	.fold-main .carousel-item { height: 100vh; }
+	.fold-main .carousel-control { display: flex; }
+	.fold-main .carousel-caption { margin: 0 100px; }
+	
+	.layout-1 .billboard { position: absolute; height: 100%; width: 50%; background-position: right; }
+	.layout-1 .col-text { flex: 0 0 50%; max-width: 50%; }
+	
+	.layout-2 .billboard { position: absolute; height: 100%; width: 50%; background-position: right; }
+	.layout-2 .col-text { flex: 0 0 50%; max-width: 50%; text-align: right; }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+	header .for-mobile { display: none; }
+	header .for-desktop { display: block; }
+}
+
+/* 1100 */
+@media (min-width: 1100px) {
+	.layout-1 .col-text div { padding-top: 100px; padding-bottom: 100px; padding-left: 70px; }
+	.layout-2 .col-text div { padding-top: 100px; padding-bottom: 100px; padding-right: 70px; }
+	
+	.fold-services i { font-size: 80px; }
+	
+	.fold-team .deck-team .team-card h4 { font-size: 24px; line-height: 32px; margin-bottom: 20px; }
+	.fold-team .deck-team .team-card h5 { font-size: 20px; line-height: 32px; }
+}
+
+/* 1260 */
+@media (min-width: 1260px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1680 */
+@media (min-width: 1680px) {
+	.fold-main .carousel-item { height: auto; min-height: 700px; }
+}
+
+/* Max: 768  */
+@media (max-width: 768px) {		
+}
